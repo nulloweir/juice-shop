@@ -188,8 +188,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "db25a305203cc86e",
+  "active": "3bbfb29608f3c638",
   "lastOpenFiles": [
+    "screen17.png",
+    "screen16.png",
+    "screen15.png",
     "screen11.png",
     "README.md",
     "screen9.png",
@@ -200,10 +203,8 @@
     "screen12.png",
     "screen10.png",
     "ci.yml",
-    "screen6.png",
     "sonar_SAST.yml",
     "sonar_sast.yaml",
-    "screen5.png",
     "data/juiceshop.sqlite-journal",
     "data/juiceshop.sqlite",
     "logs/audit.json",
