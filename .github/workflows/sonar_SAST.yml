@@ -26,9 +26,13 @@ jobs:
         node-version: ${{ env.NODE_DEFAULT_VERSION }}
 
     - name: Install dependencies
-      run: npm install --legacy-peer-deps --no-audit --no-fun --ignore-scripts
+      run: npm install --legacy-peer-deps --no-audit --no-fund --ignore-scripts
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@v3
+      with:
+      args: >
+        -Dsonar.projectKey=nulloweir_juice-shop
+        -Dsonar.organization=nulloweir
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

@@ -41,7 +41,7 @@
 
   - Створити GitHub Actions workflow для запуску аналізу при кожному push або pull request у репозиторій.  
 
-| ![Workflow 1](_Файли/Pasted%20image%2020260505145934.png) |
+|           ![[screen6.png]]            |
 | :---: |
 | ![Workflow 2](_Файли/Pasted%20image%2020260505153652.png) |
 
