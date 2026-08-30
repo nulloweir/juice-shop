@@ -190,6 +190,7 @@
   },
   "active": "3bbfb29608f3c638",
   "lastOpenFiles": [
+    "ci.yml",
     "screen6.png",
     "sonar_SAST.yml",
     "sonar_sast.yaml",
@@ -234,7 +235,6 @@
     "node_modules/otplib/README.md",
     "node_modules/winston/README.md",
     "node_modules/i18n/coverage/lcov-report/sort-arrow-sprite.png",
-    "node_modules/replace/test/test_files/test_paths/test.png",
-    "node_modules/sanitize-html/logos/logo-box-madefor.png"
+    "node_modules/replace/test/test_files/test_paths/test.png"
   ]
 }
