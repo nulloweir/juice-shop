@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "5fdc5ee112fd6a07",
+    "type": "split",
+    "children": [
+      {
+        "id": "de49bef09b0fba08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6690308772b41d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8a520dea26d45d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e61da998197979e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bbfb29608f3c638",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0b76556ebf6ce031",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "eb85a7682d2bf44a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fe0642af78f9e81b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8308b95da0962b79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cea8a3fc6bfbf8fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9c43d7be0874f694",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ee08733ba9f63426",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b53b1fd542084ac9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "381400c43c83b5c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3bbfb29608f3c638",
+  "lastOpenFiles": [
+    "sonar_SAST.yml",
+    "sonar_sast.yaml",
+    "screen5.png",
+    "screen4.png",
+    "screen1.png",
+    "README.md",
+    "screen3.png",
+    "frontend/dist/frontend/assets/public/images/ChatbotAvatar.png",
+    "frontend/dist/frontend/assets/public/images/hackingInstructor.png",
+    "data/juiceshop.sqlite-journal",
+    "data/juiceshop.sqlite",
+    "logs/audit.json",
+    "logs/access.log.2026-08-30",
+    "logs",
+    "i18n/ar_SA.json",
+    "i18n/az_AZ.json",
+    "i18n/bg_BG.json",
+    "i18n/bn_BD.json",
+    "ftp/legal.md",
+    "screen2.png",
+    "README_org.md",
+    "node_modules/ethers/lib.esm/README.md",
+    "node_modules/express-jwt/README.md",
+    "node_modules/ethers/lib.commonjs/README.md",
+    "node_modules/express-robots-txt/README.md",
+    "node_modules/socket.io-client/README.md",
+    "node_modules/graceful-fs/README.md",
+    "node_modules/socket.io-client/CHANGELOG.md",
+    "node_modules/feature-policy/README.md",
+    "node_modules/feature-policy/CHANGELOG.md",
+    "node_modules/file-type/readme.md",
+    "node_modules/express-security.txt/README.md",
+    "node_modules/prom-client/README.md",
+    "node_modules/jsonwebtoken/LICENSE.md",
+    "node_modules/jsonwebtoken/README.md",
+    "node_modules/hashids/README.md",
+    "node_modules/socket.io/Readme.md",
+    "node_modules/socket.io/CHANGELOG.md",
+    "node_modules/i18n/SECURITY.md",
+    "node_modules/i18n/README.md",
+    "node_modules/i18n/CHANGELOG.md",
+    "node_modules/otplib/README.md",
+    "node_modules/winston/README.md",
+    "node_modules/i18n/coverage/lcov-report/sort-arrow-sprite.png",
+    "node_modules/replace/test/test_files/test_paths/test.png",
+    "node_modules/sanitize-html/logos/logo-box-madefor.png"
+  ]
+}
