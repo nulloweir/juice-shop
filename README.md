@@ -16,12 +16,12 @@
   - Установити JuiceShop.  
   - Під'єднати його за допомогою SSH до репозиторію GitHub.
 
-| ![[screen1.png]] | ![[screen2.png]] |
+| ![screen1.png](report_files/screen1.png) | ![screen2.png](report_files/screen2.png) |
 | :--------------: | :--------------: |
 
   - Запустити застосунок, за допомогою `npm install` -> `npm start`.  
 
-| ![[screen3.png]] |
+| ![screen3.png](report_files/screen3.png) |
 | :----------------------------------: |
 
 ---
@@ -31,19 +31,19 @@
 - **Дії:**  
   - Налаштувати SonarCloud проєкт.  
 
-| ![[screen4.png]] |
+| ![screen4.png](report_files/screen4.png) |
 | :----------------------------------: |
 
   - Додати токен доступу `SONAR_TOKEN` до секретів GitHub.  
 
-| ![[screen5.png]] |
+| ![screen5.png](report_files/screen5.png) |
 | :----------------------------------: |
 
   - Створити GitHub Actions workflow для запуску аналізу при кожному push або pull request у репозиторій.  
 
-|           ![[screen6.png]]           |
+|           ![screen6.png](report_files/screen6.png)           |
 | :----------------------------------: |
-| ![[screen7.png]] |
+| ![screen7.png](report_files/screen7.png) |
 
 ```yml
 name: SAST
@@ -85,9 +85,9 @@ jobs:
 
   - Переконатися, що результати аналізу відображаються у вкладці Security.  
 
-| ![[screen8.png]] |
+| ![screen8.png](report_files/screen8.png) |
 | :--------------: |
-| ![[screen9.png]] |
+| ![screen9.png](report_files/screen9.png) |
 
 
 ---
@@ -97,20 +97,20 @@ jobs:
 - **Дії:**  
   - Зареєструвати репозиторій у Snyk.  
 
-| ![[screen10.png]] |
+| ![screen10.png](report_files/screen10.png) |
 | :---------------: |
 
   - Додати токен доступу `SNYK_TOKEN` до секретів GitHub.  
 
-| ![[screen11.png]] |
+| ![screen11.png](report_files/screen11.png) |
 | :----------------------------------: |
 
   - Налаштувати GitHub Actions workflow для регулярної перевірки залежностей та відправлення звітів у PR.  
 
-|          ![[screen12.png]]           |
+|          ![screen12.png](report_files/screen12.png)           |
 | :----------------------------------: |
-| ![[screen13.png]] |
-|          ![[screen14.png]]           |
+| ![screen13.png](report_files/screen13.png) |
+|          ![screen14.png](report_files/screen14.png)       |
 
 ```yml
 name: SOFTWARE COMPOSITION ANALYSIS using Snyk
@@ -139,9 +139,9 @@ jobs:
 
   - Пофіксити вразливість.
 
-| ![[screen16.png]] |
-| :---------------: |
-| ![[screen17.png]] |
+| ![screen16.png](report_files/screen16.png) |
+| :----------------------------------------: |
+|             ![screen17.png](report_files/screen17.png)           |
 
 
 ---
@@ -151,7 +151,7 @@ jobs:
 - **Дії:**  
   - Додати конфігурацію для запуску контейнера ZAProxy у GitHub Actions. Створити сценарії сканування вебінтерфейсу проєкту. Налаштувати автоматичне виконання тестів після розгортання на тестовому сервері.
 
-| ![[screen18.png]] |
+| ![screen18.png](report_files/screen18.png) |
 | :----------------------------------: |
 
 ```yml
@@ -185,9 +185,9 @@ jobs:
 
   - Проаналізувати звіт.  
 
-|          ![[screen19.png]]           |
+|         ![screen19.png](report_files/screen19.png)        |
 | :----------------------------------: |
-|          ![[screen20.png]]           |
+|          ![screen20.png](report_files/screen20.png)           |
 | ![[screen21.png]] |
 
 ---
