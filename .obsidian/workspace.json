@@ -188,20 +188,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "3bbfb29608f3c638",
+  "active": "db25a305203cc86e",
   "lastOpenFiles": [
-    "screen17.png",
-    "screen16.png",
-    "screen15.png",
-    "screen11.png",
+    "report_files/screen1.png",
     "README.md",
-    "screen9.png",
-    "screen7.png",
-    "screen8.png",
-    "screen13.png",
-    "screen14.png",
-    "screen12.png",
-    "screen10.png",
+    "report_files/screen18.png",
+    "report_files/screen21.png",
+    "report_md.md",
+    "report_files/screen20.png",
+    "report_files/screen19.png",
+    "report_files/screen17.png",
+    "report_files/screen16.png",
+    "report_files/screen15.png",
+    "report_files/screen11.png",
+    "report_files/screen9.png",
+    "report_files/screen7.png",
     "ci.yml",
     "sonar_SAST.yml",
     "sonar_sast.yaml",
@@ -234,7 +235,6 @@
     "node_modules/i18n/SECURITY.md",
     "node_modules/i18n/README.md",
     "node_modules/i18n/CHANGELOG.md",
-    "node_modules/otplib/README.md",
-    "node_modules/winston/README.md"
+    "node_modules/otplib/README.md"
   ]
 }
