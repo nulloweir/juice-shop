@@ -190,6 +190,8 @@
   },
   "active": "3bbfb29608f3c638",
   "lastOpenFiles": [
+    "screen12.png",
+    "screen11.png",
     "ci.yml",
     "screen6.png",
     "sonar_SAST.yml",
@@ -208,7 +210,6 @@
     "logs",
     "i18n/ar_SA.json",
     "i18n/az_AZ.json",
-    "i18n/bg_BG.json",
     "ftp/legal.md",
     "screen2.png",
     "README_org.md",
@@ -234,7 +235,6 @@
     "node_modules/i18n/CHANGELOG.md",
     "node_modules/otplib/README.md",
     "node_modules/winston/README.md",
-    "node_modules/i18n/coverage/lcov-report/sort-arrow-sprite.png",
-    "node_modules/replace/test/test_files/test_paths/test.png"
+    "node_modules/i18n/coverage/lcov-report/sort-arrow-sprite.png"
   ]
 }
