@@ -41,9 +41,9 @@
 
   - Створити GitHub Actions workflow для запуску аналізу при кожному push або pull request у репозиторій.  
 
-|           ![[screen6.png]]            |
-| :---: |
-| ![Workflow 2](_Файли/Pasted%20image%2020260505153652.png) |
+|           ![[screen6.png]]           |
+| :----------------------------------: |
+| ![[screen7.png]] |
 
 ```yml
 name: SAST
@@ -85,10 +85,10 @@ jobs:
 
   - Переконатися, що результати аналізу відображаються у вкладці Security.  
 
-| ![Security 1](_Файли/Pasted%20image%2020260505152640.png) |
-| :---: |
-| ![Security 2](_Файли/Pasted%20image%2020260505152734.png) |
-| ![Security 3](_Файли/Pasted%20image%2020260505152815.png) |
+| ![[screen8.png]] |
+| :--------------: |
+| ![[screen9.png]] |
+
 
 ---
 
@@ -97,20 +97,20 @@ jobs:
 - **Дії:**  
   - Зареєструвати репозиторій у Snyk.  
 
-| ![[screen11.png]] |
+| ![[screen10.png]] |
 | :---------------: |
 
   - Додати токен доступу `SNYK_TOKEN` до секретів GitHub.  
 
-| ![[screen12.png]] |
+| ![[screen11.png]] |
 | :----------------------------------: |
 
   - Налаштувати GitHub Actions workflow для регулярної перевірки залежностей та відправлення звітів у PR.  
 
-| ![Snyk Workflow 1](_Файли/Pasted%20image%2020260505153451.png) |
-| :---: |
-| ![Snyk Workflow 2](_Файли/Pasted%20image%2020260505153900.png) |
-| ![Snyk Workflow 3](_Файли/Pasted%20image%2020260505154430.png) |
+|          ![[screen12.png]]           |
+| :----------------------------------: |
+| ![[screen13.png]] |
+|          ![[screen14.png]]           |
 
 ```yml
 name: SOFTWARE COMPOSITION ANALYSIS using Snyk
